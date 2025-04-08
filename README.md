@@ -8,6 +8,14 @@ It can be used in [Flutter](https://flutter.dev/) or pure [Dart](https://dart.de
 
 To scan for printers in your network, consider using [ping_discover_network](https://pub.dev/packages/ping_discover_network) package. Note that most of the ESC/POS printers by default listen on port 9100.
 
+## Install
+add to `pubspec.yaml` dependency:
+```yaml
+esc_pos_printer:
+    git:
+      url: https://github.com/srengty/esc_pos_printer.git
+      ref: master
+```
 ## TODO (PRs are welcomed!)
 
 - Print QR Codes using the `GS ( k` command (printing QR code from an image already supported)
